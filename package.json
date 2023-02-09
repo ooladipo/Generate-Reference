@@ -1,0 +1,23 @@
+{
+  "name": "pos-requisition-tid",
+  "version": "1.0.0",
+  "description": "API handles TID & MID for POS Requistion",
+  "main": "tid.js",
+  "scripts": {
+    "start": "nodemon tid.js"
+  },
+  "keywords": [
+    "POS",
+    "Requisition",
+    "TID",
+    "MID"
+  ],
+  "author": "Dipo OKB",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
